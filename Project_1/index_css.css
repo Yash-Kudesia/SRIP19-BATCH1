@@ -27,6 +27,7 @@
 }
 
 .dropdown a:hover {background-color: #969696;}
+.dropdown button:hover {background-color: #969696;}
 
 .show {display: block;}
 .wrapper{
@@ -44,4 +45,27 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+.link_decor{
+  padding: 5px;
+  border: 1px solid black;
+  background-color: lightgrey;
+  text-decoration: none;
+  color: black;
+}
+.button_decor{
+  border: none;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+div.scroll {
+  background-color: lightgrey;
+  width: 100%;
+  height: 20em;
+  overflow: scroll;
+}
+.codevisibility{
+  display: none;
 }
